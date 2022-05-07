@@ -3,7 +3,7 @@
 This activity will teach you a core concept (*args & **kwargs)
 to get started with Django.
 
-(Inspired by the status of my room during the final period)
+(Inspired by the status of my room during the final exam period)
 """
 
 from actions import inspect, smell
