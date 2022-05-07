@@ -1,9 +1,14 @@
 def inspect(*items):
-    # TODO: use zip() instead of hard-coding the numbers
-    indices_to_emojis = {1: "💌", 2: "💐", 3: "⌚"}
+    emojis = ["💌", "💐", "⌚"]
 
-    for i, item in enumerate(items, 1):
+    indices_to_emojis = {
+        i: emoji
+        for i, emoji in enumerate(emojis)
+    }
+
+    for i, item in enumerate(items):
         print(indices_to_emojis[i], item)
+
     print()
 
 

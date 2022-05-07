@@ -6,7 +6,7 @@ class TrashCan:
         for item in trash:
             self.trash_can.add(item)
 
-    def check(self):
+    def check_status(self):
         print()
         print("🗑️:")
 
