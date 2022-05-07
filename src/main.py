@@ -42,10 +42,10 @@ items_on_desk = [
     "battery charger",
 ]
 
+trash_can = TrashCan()
+
 # YOUR CODE GOES HERE ---
 pencil_case, *trash, battery_charger = items_on_desk
-
-trash_can = TrashCan()
 
 trash_can.put(*trash)
 trash_can.check()
