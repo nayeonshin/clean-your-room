@@ -12,21 +12,23 @@ from trash_can import TrashCan
 
 # Part 1. Unpacking
 # You've got a package from a friend that consists of 3 items.
-# Try unboxing it with Python's unpacking.
-# (Unpack & inspect the items.)
+# Try unboxing and inspecting it.
+# YOUR CODE GOES HERE ---
 item1, item2, item3 = gifts_from_friend.values()
 inspect(item1, item2, item3)
+# -----------------------
 
 # The second item turned out to be a bouquet.
-# You want to smell each flower.
-# Can you take out the flowers from the bouquet through unpacking?
-# (Unpack & smell each item.)
+# You want to check what each flower smells like.
+# Can you take out and smell each flower from the bouquet?
+# YOUR CODE GOES HERE ---
 freesia, rose, anemone, lily_of_the_valley = item2
 
 smell(freesia)
 smell(rose)
 smell(anemone)
 smell(lily_of_the_valley)
+# -----------------------
 
 
 # Part 2. Unpacking & *args
@@ -40,6 +42,7 @@ items_on_desk = [
     "battery charger",
 ]
 
+# YOUR CODE GOES HERE ---
 pencil_case, *trash, battery_charger = items_on_desk
 
 trash_can = TrashCan()
@@ -49,6 +52,7 @@ trash_can.check()
 
 trash_can.empty()
 trash_can.check()
+# -----------------------
 
 
 # Part 3. Unpacking & **kwargs (WIP)
