@@ -19,7 +19,7 @@ inspect(item1, item2, item3)
 
 # The second item turned out to be a bouquet.
 # You want to smell each flower.
-# Can you take out the flowers from flowers through unpacking?
+# Can you take out the flowers from the bouquet through unpacking?
 # (Unpack & smell each item.)
 freesia, rose, anemone, lily_of_the_valley = item2
 
