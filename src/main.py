@@ -1,8 +1,5 @@
 """
-TODO: remind audience of how to fork this project
-- long pauses
-
-"Clean" your room with unpacking, *args, and **kwargs.
+"Clean" your (digital) room with unpacking, *args, and **kwargs.
 This activity will teach you a core concept (*args & **kwargs)
 to get started with Django.
 
