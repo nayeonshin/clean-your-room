@@ -64,19 +64,16 @@ trash_can.check_status()
 # Use two asterisks (**) to put clothes with the detergent into the washing machine.
 
 clothes = {
-  "normal": {
-    "t-shirt",
-    "socks",
-    "underwear",
-  },
-  "perm press": {
-    "blouse",
-    "slacks",
-  },
-  "delicate": {
-    "cashmere sweater",
-    "silk shirt"
-  },
+    "normal": {
+        "t-shirt",
+        "socks",
+        "underwear",
+    },
+    "perm press": {
+        "blouse",
+        "slacks",
+    },
+    "delicate": {"cashmere sweater", "silk shirt"},
 }
 
 detergent = "tide"
@@ -85,10 +82,7 @@ washing_machine = WashingMachine()
 # YOUR CODE GOES HERE ---
 washing_machine.check_status()
 
-washing_machine.put(
-  detergent,
-  **clothes
-)
+washing_machine.put(detergent, **clothes)
 washing_machine.check_status()
 
 washing_machine.start()
