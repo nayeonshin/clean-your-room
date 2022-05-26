@@ -19,8 +19,7 @@ inspect(item1, item2, item3)
 # -----------------------
 
 # The second item turned out to be a bouquet.
-# You want to check what flowers there are
-# and what each of them smells like.
+# You want to check what flowers there are and what each of them smells like.
 # Can you take out and smell each flower from the bouquet?
 
 # YOUR CODE GOES HERE ---
@@ -36,8 +35,7 @@ smell(lily_of_the_valley)
 # Part 2. Unpacking & *args
 # Oh no! Your desk is a mess.
 # Throw away all the trash in a can and empty the can.
-# Be careful, though. You don't want to throw away
-# the pencil case and battery charger!
+# Be careful, though. You don't want to throw away the pencil case and battery charger!
 items_on_desk = [
     "pencil case",
     "empty water bottle",
@@ -62,8 +60,7 @@ trash_can.check_status()
 
 
 # Part 3. Unpacking & **kwargs
-# Now, you need to do laundry as there's a pile of clothes
-# that you haven't washed for 2 weeks.
+# Now, you need to do laundry as there's a pile of clothes that you haven't washed for 2 weeks.
 # Use two asterisks (**) to put clothes with the detergent into the washing machine.
 
 clothes = {
