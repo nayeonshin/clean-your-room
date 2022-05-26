@@ -13,6 +13,8 @@ from washing_clothes import WashingMachine
 # You've got a package from a friend that consists of 3 items.
 # Try unboxing and inspecting it.
 
+# How to use `inspect()`: inspect(arg1, arg2, arg3)
+
 # YOUR CODE GOES HERE ---
 item1, item2, item3 = gifts_from_friend
 inspect(item1, item2, item3)
@@ -21,6 +23,8 @@ inspect(item1, item2, item3)
 # The second item turned out to be a bouquet.
 # You want to check what flowers there are and what each of them smells like.
 # Can you take out and smell each flower from the bouquet?
+
+# How to use `smell()`: smell(arg1)
 
 # YOUR CODE GOES HERE ---
 freesia, rose, anemone, lily_of_the_valley = item2
@@ -36,6 +40,12 @@ smell(lily_of_the_valley)
 # Oh no! Your desk is a mess.
 # Throw away all the trash in a can and empty the can.
 # Be careful, though. You don't want to throw away the pencil case and the battery charger!
+
+# TrashCan has 3 methods: `check_status()`, `put()`, and `empty()`.
+# `trash_can.check_status()`: shows the current status of the trash can
+# `trash_can.put(*args)`: puts the arguments into the trash can
+# `trash_can.empty()`: empties the trash can
+
 items_on_desk = [
     "pencil case",
     "empty water bottle",
@@ -62,6 +72,11 @@ trash_can.check_status()
 # Part 3. Unpacking & **kwargs
 # Now, you need to do laundry as there's a pile of clothes that you haven't washed for 2 weeks.
 # Use two asterisks (**) to put clothes with the detergent into the washing machine.
+
+# WashingMachine has 3 methods: `check_status()`, `put()`, and `start()`.
+# `washing_machine.check_status()`: shows the current status of the washing machine
+# `washing_machine.put(arg1, **arg2)`: puts arg1 (detergent) with args2
+# `washing_machine.start()`: starts the washing machine and washes the clothes
 
 clothes = {
     "normal": {
