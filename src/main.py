@@ -35,7 +35,7 @@ smell(lily_of_the_valley)
 # Part 2. Unpacking & *args
 # Oh no! Your desk is a mess.
 # Throw away all the trash in a can and empty the can.
-# Be careful, though. You don't want to throw away the pencil case and battery charger!
+# Be careful, though. You don't want to throw away the pencil case and the battery charger!
 items_on_desk = [
     "pencil case",
     "empty water bottle",
