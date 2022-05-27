@@ -97,7 +97,7 @@ washing_machine = WashingMachine()
 # YOUR CODE GOES HERE ---
 washing_machine.check_status()
 
-washing_machine.put(detergent, **clothes)
+washing_machine.put(detergent, clothes=clothes)
 washing_machine.check_status()
 
 washing_machine.start()
